@@ -11,7 +11,8 @@ services:
         volumes:
             - ./server:/var/www/server
         environment:
-            - MONGO_URL=mongodb://mongo-db/servertestdb
+            - SECRET='YUH4.,UTJds9.3I23_fdg8.547}[W{_46.Qhg.jHEI'
+            - MONGO_URL='mongodb://mongo-db/servertestdb'
             - HOSTNAME=0.0.0.0
             - PORT=3000
         ports:

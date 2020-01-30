@@ -27,9 +27,11 @@ function initDB() {
 
 const message = `Server listening at http://${hostname}:${port}`;
 
+// endpoint para autenticar cliente y obtener token
 const authController = require('./auth/auth.controller');
 app.use('/auth', authController);
 
+// endpoint para acceder a clientes y pólizas
 const apiController = require('./controller/api.controller');
 app.use('/api', apiController);
 
