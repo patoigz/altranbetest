@@ -87,7 +87,7 @@
 						"header": [
 							{
 								"key": "Authorization",
-								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxMjI4MywiZXhwIjoxNTgwNDI2NjgzfQ.7sNAhlHSRF_YOyz3yBiUhYPDpPDLsRormP2oGTWsM_o",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxNzY5NiwiZXhwIjoxNTgwNDMyMDk2fQ.HEH9-sDNk4qRpBPxMlRwGWPM67rLa7ASXvEuQVn16og",
 								"type": "text"
 							}
 						],
@@ -173,7 +173,13 @@
 					"name": "http://localhost:3000/api/client/all",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJjZGM4OTQ4LWFlN2ItNGJiZC05NTVhLWI5ODQ4OWE1NWU4MCIsIm5hbWUiOiJBbGx5c29uIiwiZW1haWwiOiJhbGx5c29uYmxhbmtlbnNoaXBAcXVvdGV6YXJ0LmNvbSIsInJvbGUiOiJ1c2VyIiwiX192IjowLCJpYXQiOjE1ODA0MTY2NzAsImV4cCI6MTU4MDQzMTA3MH0.XGgMgBObw_AhyTgPuDQJlx11tfiC8KqzLSXXe5C4R1g",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "http://localhost:3000/api/client/all",
 							"protocol": "http",
@@ -194,7 +200,13 @@
 					"name": "http://localhost:3000/api/client/findByClientId/a0ece5db-cd14-4f21-812f-966633e7be86",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxNzY5NiwiZXhwIjoxNTgwNDMyMDk2fQ.HEH9-sDNk4qRpBPxMlRwGWPM67rLa7ASXvEuQVn16og",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "http://localhost:3000/api/client/findByClientId/a0ece5db-cd14-4f21-812f-966633e7be86",
 							"protocol": "http",
@@ -216,7 +228,13 @@
 					"name": "http://localhost:3000/api/client/findByClientId/a6757b3f-c138-47bf-a43e-defde945c6d0",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxNzY5NiwiZXhwIjoxNTgwNDMyMDk2fQ.HEH9-sDNk4qRpBPxMlRwGWPM67rLa7ASXvEuQVn16og",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "http://localhost:3000/api/client/findByClientId/a6757b3f-c138-47bf-a43e-defde945c6d0",
 							"protocol": "http",
@@ -238,7 +256,13 @@
 					"name": "http://localhost:3000/api/client/findByClientName/Guthrie",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxNzY5NiwiZXhwIjoxNTgwNDMyMDk2fQ.HEH9-sDNk4qRpBPxMlRwGWPM67rLa7ASXvEuQVn16og",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "http://localhost:3000/api/client/findByClientName/Guthrie",
 							"protocol": "http",
@@ -309,7 +333,13 @@
 					"name": "http://localhost:3000/api/policy/findByClientId/a6757b3f-c138-47bf-a43e-defde945c6d0",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxNzY5NiwiZXhwIjoxNTgwNDMyMDk2fQ.HEH9-sDNk4qRpBPxMlRwGWPM67rLa7ASXvEuQVn16og",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "http://localhost:3000/api/policy/findByClientId/a6757b3f-c138-47bf-a43e-defde945c6d0",
 							"protocol": "http",
@@ -331,7 +361,13 @@
 					"name": "http://localhost:3000/api/policy/findClientByPolicyId/facd2c78-65f0-4a49-8a66-560109d263ba",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxNzY5NiwiZXhwIjoxNTgwNDMyMDk2fQ.HEH9-sDNk4qRpBPxMlRwGWPM67rLa7ASXvEuQVn16og",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "http://localhost:3000/api/policy/findClientByPolicyId/84d2812f-49be-4a71-8ea8-f24759528a6f",
 							"protocol": "http",
@@ -375,7 +411,13 @@
 					"name": "http://localhost:3000/api/policy/findByClientName/guThriE",
 					"request": {
 						"method": "GET",
-						"header": [],
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxNzY5NiwiZXhwIjoxNTgwNDMyMDk2fQ.HEH9-sDNk4qRpBPxMlRwGWPM67rLa7ASXvEuQVn16og",
+								"type": "text"
+							}
+						],
 						"url": {
 							"raw": "http://localhost:3000/api/policy/findByClientName/guThriE",
 							"protocol": "http",

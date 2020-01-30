@@ -87,7 +87,12 @@ const service = {
                         as: 'client'
                     }
                 },
-                { $match: { 'client.name': { $regex: _name, $options: '-i' } } }
+                { $match: { 'client.name': { $regex: _name, $options: '-i' } } },
+                {
+                    $project: {
+                        client: 0
+                    }
+                }
             ],
             (err, docs) => {
                 if (err) return res.status(500).send(err);

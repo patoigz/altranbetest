@@ -2,7 +2,7 @@
 
 const service = {
     /*
-     * retorna todos los clientes
+     * retorna la lista de todos los clientes
      */
     all: (req, res) => {
         Client.find({}, { _id: 0 })
