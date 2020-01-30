@@ -1,0 +1,33 @@
+version: '3.1'
+
+services:
+    express-server:
+        container_name: app-server
+        image: nodeapp
+        restart: always
+        build:
+            context: ./server
+            dockerfile: .docker/node.dockerfile
+        volumes:
+            - ./server:/var/www/server
+        environment:
+            - MONGO_URL=mongodb://mongo-db/servertestdb
+            - HOSTNAME=0.0.0.0
+            - PORT=3000
+        ports:
+            - '3000:3000'
+        depends_on:
+            - mongo-db
+        networks:
+            - app-network
+
+    mongo-db:
+        container_name: mongo-db
+        image: mongo
+        restart: always
+        networks:
+            - app-network
+
+networks:
+    app-network:
+        driver: bridge
