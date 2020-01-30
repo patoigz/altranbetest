@@ -28,6 +28,7 @@ const PolicySchema = new mongoose.Schema({
 
 PolicySchema.index({ id: 1 });
 
+PolicySchema.set('toObject', { virtuals: true });
 PolicySchema.set('toJSON', { virtuals: true });
 
 PolicySchema.virtual('client', {
