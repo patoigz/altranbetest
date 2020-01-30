@@ -20,6 +20,8 @@ function initDB() {
         .catch(err => console.error(err))
         .then(db => {
             console.log('connected');
+            const dummy = require('./dummy');
+            dummy.setup(db);
         });
 }
 
