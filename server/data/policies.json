@@ -1543,6 +1543,14 @@
             "inceptionDate": "2014-10-18T07:12:05Z",
             "installmentPayment": true,
             "clientId": "e8fd159b-57c4-4d36-9bd7-a59ca13057bb"
+        },
+        {
+            "id": "facd2c78-65f0-4a49-8a66-560109d263ba",
+            "amountInsured": 1261.56,
+            "email": "guthrieblankenship@quotezart.com",
+            "inceptionDate": "2020-01-30T07:12:05Z",
+            "installmentPayment": true,
+            "clientId": "a6757b3f-c138-47bf-a43e-defde945c6d0"
         }
     ]
 }

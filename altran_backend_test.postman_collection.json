@@ -1,0 +1,262 @@
+{
+	"info": {
+		"_postman_id": "45a703b8-985a-48cf-b577-0b997a67ce5b",
+		"name": "Altran backend test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "client",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/client/all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/client/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"client",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/client/findByClientId/a0ece5db-cd14-4f21-812f-966633e7be86",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/client/findByClientId/a0ece5db-cd14-4f21-812f-966633e7be86",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"client",
+								"findByClientId",
+								"a0ece5db-cd14-4f21-812f-966633e7be86"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/client/findByClientId/a6757b3f-c138-47bf-a43e-defde945c6d0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/client/findByClientId/a6757b3f-c138-47bf-a43e-defde945c6d0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"client",
+								"findByClientId",
+								"a6757b3f-c138-47bf-a43e-defde945c6d0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/client/findByClientName/Guthrie",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/client/findByClientName/Guthrie",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"client",
+								"findByClientName",
+								"Guthrie"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "policy",
+			"item": [
+				{
+					"name": "http://localhost:3000/api/policy/all",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/policy/findByClientId/a0ece5db-cd14-4f21-812f-966633e7be86",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/findByClientId/a0ece5db-cd14-4f21-812f-966633e7be86",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"findByClientId",
+								"a0ece5db-cd14-4f21-812f-966633e7be86"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/policy/findByClientId/a6757b3f-c138-47bf-a43e-defde945c6d0",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/findByClientId/a6757b3f-c138-47bf-a43e-defde945c6d0",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"findByClientId",
+								"a6757b3f-c138-47bf-a43e-defde945c6d0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/policy/findClientByPolicyId/facd2c78-65f0-4a49-8a66-560109d263ba",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/findClientByPolicyId/facd2c78-65f0-4a49-8a66-560109d263ba",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"findClientByPolicyId",
+								"facd2c78-65f0-4a49-8a66-560109d263ba"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/policy/findByClientName/Guthrie",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/findByClientName/Guthrie",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"findByClientName",
+								"Guthrie"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/policy/findByClientName/guThriE",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/findByClientName/guThriE",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"findByClientName",
+								"guThriE"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/policy/findByName/Britney",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/findByClientName/Britney",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"findByClientName",
+								"Britney"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
