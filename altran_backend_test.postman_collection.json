@@ -6,6 +6,167 @@
 	},
 	"item": [
 		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "http://localhost:3000/auth/login role = admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\" : \"f80b6ab6-ef21-4bd9-9d87-bec464e0f60f\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/auth/login role = user",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\" : \"bcdc8948-ae7b-4bbd-955a-b98489a55e80\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/client/all token",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxMjI4MywiZXhwIjoxNTgwNDI2NjgzfQ.7sNAhlHSRF_YOyz3yBiUhYPDpPDLsRormP2oGTWsM_o",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/client/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"client",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/policy/findByClientName/guThriE role = admin",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY4MGI2YWI2LWVmMjEtNGJkOS05ZDg3LWJlYzQ2NGUwZjYwZiIsIm5hbWUiOiJUaGVsbWEiLCJlbWFpbCI6InRoZWxtYWJsYW5rZW5zaGlwQHF1b3RlemFydC5jb20iLCJyb2xlIjoiYWRtaW4iLCJfX3YiOjAsImlhdCI6MTU4MDQxMjI4MywiZXhwIjoxNTgwNDI2NjgzfQ.7sNAhlHSRF_YOyz3yBiUhYPDpPDLsRormP2oGTWsM_o",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/findByClientName/guThriE",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"findByClientName",
+								"guThriE"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:3000/api/policy/findByClientName/guThriE role = user permission denied",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImJjZGM4OTQ4LWFlN2ItNGJiZC05NTVhLWI5ODQ4OWE1NWU4MCIsIm5hbWUiOiJBbGx5c29uIiwiZW1haWwiOiJhbGx5c29uYmxhbmtlbnNoaXBAcXVvdGV6YXJ0LmNvbSIsInJvbGUiOiJ1c2VyIiwiX192IjowLCJpYXQiOjE1ODA0MTIzNjYsImV4cCI6MTU4MDQyNjc2Nn0._8zCX_AXJXMW1WNroyIr3cRxzD_LMVqmcrsolPXjq5k"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:3000/api/policy/findByClientName/guThriE",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"policy",
+								"findByClientName",
+								"guThriE"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
 			"name": "client",
 			"item": [
 				{
@@ -172,7 +333,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/policy/findClientByPolicyId/facd2c78-65f0-4a49-8a66-560109d263ba",
+							"raw": "http://localhost:3000/api/policy/findClientByPolicyId/84d2812f-49be-4a71-8ea8-f24759528a6f",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -182,7 +343,7 @@
 								"api",
 								"policy",
 								"findClientByPolicyId",
-								"facd2c78-65f0-4a49-8a66-560109d263ba"
+								"84d2812f-49be-4a71-8ea8-f24759528a6f"
 							]
 						}
 					},

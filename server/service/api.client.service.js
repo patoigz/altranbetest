@@ -5,7 +5,7 @@ const service = {
      * retorna todos los clientes
      */
     all: (req, res) => {
-        Client.find({}, { _id: 0, id: 0, role: 0 })
+        Client.find({}, { _id: 0 })
             .then(docs => {
                 return res.json({ clients: docs });
             })

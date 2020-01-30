@@ -27,6 +27,9 @@ function initDB() {
 
 const message = `Server listening at http://${hostname}:${port}`;
 
+const authController = require('./auth/auth.controller');
+app.use('/auth', authController);
+
 const apiController = require('./controller/api.controller');
 app.use('/api', apiController);
 
